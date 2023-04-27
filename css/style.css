@@ -1,7 +1,44 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Charlotte Jhu
+* Created on: April 2023
 * This file contains the CSS for index.html
 */
-.dice {
-  width: 100px;
+
+/* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
+*/
+.mdl-ripple {
+  background: #e10a0a;
+  opacity: 0.001;
+}
+
+.mdl-layout__header-row {
+  justify-content: center;
+  padding: 0;
+}
+
+.mdl-layout__content {
+  padding-left: 20pt;
+  padding-right: 20pt;
+  padding-top: 20pt;
+  font-family: Georgia, serif;
+}
+
+.page-content-instructions {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: xx-large;
+}
+
+.page-content-answer {
+  color: rgb(75, 239, 20);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: xx-large;
+}
+
+.right-image {
+  height: 250px;
+  width: auto;
+  float: right;
+}
+
+body {
+  background-color: rgb(43, 23, 225);
 }
